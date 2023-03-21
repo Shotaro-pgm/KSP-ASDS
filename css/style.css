@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/* -----------------------------------
+共通のデザイン
+----------------------------------- */
+html {
+    font-size: 100%;
+}
+body {
+    max-width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Noto Sans JP', "Font Awesome", sans-serif;
+    margin: 0 auto;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* -----------------------------------
+ヘッダー ロゴ
+----------------------------------- */
+header .logo {
+    position: fixed;
+    z-index: 200;
+    padding-left: 10%;
+    margin-top: 20px;
+}
+
+/* -----------------------------------
+ヘッダー ナビ
+----------------------------------- */
+header .nav-menu {
+    position: fixed;
+    z-index: 100;
+    padding-left: 85%;
+    margin-top: 30px;
+}
+header .nav-menu .btn:hover {
+    cursor: pointer;
+}
+header .nav-menu .nav-list {
+    position: relative;
+    left: -80%;
+    display: none;
+    text-align: right;
+    width: 80%;
+}
+header .nav-menu .nav-list li {
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+
+/* -----------------------------------
+メイン
+----------------------------------- */
+.wrapper {
+    position: relative;
+    top: 0;
+    z-index: 10;
+    max-width: 100%;
+}
+#section-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+}
+/* #space-transport img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+}
+#space-use img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+}
+#kerbin-area-explore img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+}
+#planet-explore img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+}
+#aero-tech-science img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+}
+#military-aircraft img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+}
+#about-this-site img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+} */
+.section-greeting {
+    position: relative;
+    bottom: 300px;
+    margin-left: 140px;
+    margin-bottom: -130px;
+}
+.section-greeting h2 {
+    font-size: 2rem;
+}
+
+/* -----------------------------------
+フッター
+----------------------------------- */
+footer p {
+    text-align: center;
+    margin: 60px auto 50px auto;
+}
+
+/* -----------------------------------
+レスポンシブ
+----------------------------------- */
+@media screen and (max-width:500px) {
+    header .logo {
+        margin-top: 0;
+    }
+    header .nav-menu {
+        margin-top: 15px;
+        width: 75%;
+    }
+    header .nav-menu .nav-list {
+        left: -80%;
+    }
+    .section-greeting {
+        bottom: 150px;
+        left: -60px;
+        margin-right: 10px;
+        width: 300px;
+    }
+    .section-greeting h2 {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width:960px) {
+    header .nav-menu {
+        width: 85%;
+    }
+    .section-greeting {
+        bottom: 200px;
+        margin-left: 95px;
+    }
+}
