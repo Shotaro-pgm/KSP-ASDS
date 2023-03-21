@@ -124,6 +124,21 @@ header .nav-menu .nav-list li {
 }
 
 /* -----------------------------------
+各セクション　共通デザイン
+----------------------------------- */
+.section-wrapper {
+    position: relative;
+    bottom: 400px;
+    z-index: 100;
+    max-width: 900px;
+    margin: auto auto -200px auto;
+    text-align: center;
+}
+.section-wrapper p {
+    line-height: 1.5;
+}
+
+/* -----------------------------------
 フッター
 ----------------------------------- */
 footer p {
