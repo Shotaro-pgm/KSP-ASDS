@@ -84,6 +84,45 @@ header .nav-menu .nav-list li {
 }
 
 /* -----------------------------------
+テキストのフェードイン
+----------------------------------- */
+.fadeUp {
+    -webkit-animation-name: fadeUpAnime;
+            animation-name: fadeUpAnime;    /*アニメーションの名前*/
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;         /*アニメーションの実行時間*/
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;  /*アニメーション後、要素が表示されたままにする*/
+  }
+  @-webkit-keyframes fadeUpAnime {
+    0% {
+      opacity: 0;                   /*非表示*/
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px); /*縦方向に100pxずらす*/
+    }
+    100% {
+      opacity: 1;                   /*表示*/
+      -webkit-transform: translateY(0);
+              transform: translateY(0);     /*元の位置*/
+    }
+  }
+  @keyframes fadeUpAnime {
+    0% {
+      opacity: 0;                   /*非表示*/
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px); /*縦方向に100pxずらす*/
+    }
+    100% {
+      opacity: 1;                   /*表示*/
+      -webkit-transform: translateY(0);
+              transform: translateY(0);     /*元の位置*/
+    }
+  }
+  .fadeUpTrigger {
+    opacity: 0;                     /*非表示*/
+  }
+
+/* -----------------------------------
 各セクション　共通デザイン
 ----------------------------------- */
 .section-introduction {
