@@ -35,6 +35,7 @@ header .logo {
 ヘッダー ナビ
 ----------------------------------- */
 header .nav-menu {
+    width: 200px;
     position: fixed;
     z-index: 100;
     padding-left: 85%;
@@ -71,48 +72,7 @@ header .nav-menu .nav-list li {
     object-fit: cover;
     object-position: center top;
 }
-/* #space-transport img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center top;
-}
-#space-use img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center top;
-}
-#kerbin-area-explore img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center top;
-}
-#planet-explore img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center top;
-}
-#aero-tech-science img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center top;
-}
-#military-aircraft img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center top;
-}
-#about-this-site img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center top;
-} */
+/* 画像の表示がおかしくなったら上記cssをすべてのセクションのimgに適用させること */
 .section-greeting {
     position: relative;
     bottom: 300px;
@@ -126,13 +86,23 @@ header .nav-menu .nav-list li {
 /* -----------------------------------
 各セクション　共通デザイン
 ----------------------------------- */
+.section-introduction {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.section-introduction img {
+    max-width: 100%;
+}
 .section-wrapper {
     position: relative;
-    bottom: 400px;
+    bottom: 300px;
     z-index: 100;
-    max-width: 900px;
-    margin: auto auto -200px auto;
-    text-align: center;
+}
+.section-rocket {
+    max-width: 1000px;
+    margin-top: -200px;
 }
 .section-wrapper p {
     line-height: 1.5;
