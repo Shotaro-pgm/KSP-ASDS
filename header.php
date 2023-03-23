@@ -40,13 +40,13 @@
         <div class="nav-menu">
             <p id="menu-btn" class="btn menu">menu</p>
             <ul class="nav-list">
-                <li><a href="stp-space-transport.php" class="btn selector">宇宙運輸部門</a></li>
-                <li><a href="#space-use" class="btn selector">宇宙利用部門</a></li>
-                <li><a href="#kerbin-area-explore" class="btn selector">カービン圏探査部門</a></li>
-                <li><a href="#planet-explore" class="btn selector">惑星探査部門</a></li>
-                <li><a href="#aero-tech-science" class="btn selector">航空技術研究部門</a></li>
-                <li><a href="#military-aircraft" class="btn selector">軍用機開発部門</a></li>
-                <li><a href="#about-this-site" class="btn selector">このサイトについて</a></li>
+                <li><a href="stp1-space-transport.php" class="btn selector">宇宙運輸部門</a></li>
+                <li><a href="stp2-space-use.php" class="btn selector">宇宙利用部門</a></li>
+                <li><a href="stp3-kerbin-area-explore.php" class="btn selector">カービン圏探査部門</a></li>
+                <li><a href="stp4-planet-explore.php" class="btn selector">惑星探査部門</a></li>
+                <li><a href="stp5-aero-tech-science.php" class="btn selector">航空技術研究部門</a></li>
+                <li><a href="stp6-military-aircraft.php" class="btn selector">軍用機開発部門</a></li>
+                <li><a href="stp7-about-this-site.php" class="btn selector">このサイトについて</a></li>
                 <li><a href="https://www.youtube.com/@Shotaro_in_KSC" target="_blank" class="btn selector">YouTube<i class="fa-brands fa-youtube"></i></a></li>
                 <li><a href="https://twitter.com/shokun_play" target="_blank" class="btn selector">Twitter<i class="fa-brands fa-twitter"></i></a></li>
                 <li><a href="https://kerbalx.com/Shotaro" target="_blank" class="btn selector">KerbalX<i class="fa-solid fa-rocket"></i></a></li>
