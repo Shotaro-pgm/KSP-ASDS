@@ -1,8 +1,8 @@
 <?php require 'header.php'; ?>
 <div class="wrapper">
-    <div><img src="img/2023-03-19 (1).png" alt="" id="section-image"></div>
+    <div><img src="img/2023-03-19 (1)-min.png" alt="" id="section-image"></div>
 </div>
-<div class="section-introduction section-wrapper">
+<div class="fadeUpTrigger section-introduction section-wrapper">
     <h1>運べ。素早く正確に。</h1>
     <p>
         宇宙開発と聞いて真っ先にイメージするものってなんでしょうか。<br>
@@ -14,11 +14,18 @@
 </div>
 <div class="section-introduction section-rocket">
     <h1>私たちのローンチビークル</h1>
-    <section class="genesis">
-        <h2>LV Genesis</h2>
-        <img src="img/2023-03-19 (3).png" alt="">
+    <section class="fadeUpTrigger genesis">
+        <a href=""><h2>LV Genesis</h2></a>
+        <img src="img/2023-03-19 (3)-min.png" alt="">
         <p>
-            LV Genesisは人工衛星から宇宙探査機まで、さまざまな宇宙機の打ち上げを目的とした大型ロケットです。
+            LV Genesisは人工衛星から宇宙探査機まで、さまざまな宇宙機の打ち上げを目的とした大型液体燃料ロケットです。
+        </p>
+    </section>
+    <section class="fadeUpTrigger gungnir">
+        <a href=""><h2>LV Gungnir</h2></a>
+        <img src="img/2023-03-23 (81)-min.png" alt="">
+        <p>
+            LV Gungnirはカービン圏内で運用する宇宙機を安価に打ち上げることが可能な大型固体燃料ロケットです。
         </p>
     </section>
 </div>
