@@ -40,7 +40,7 @@
         <div class="nav-menu">
             <p id="menu-btn" class="btn menu">menu</p>
             <ul class="nav-list">
-                <li><a href="space-transport.php" class="btn selector">宇宙運輸部門</a></li>
+                <li><a href="stp-space-transport.php" class="btn selector">宇宙運輸部門</a></li>
                 <li><a href="#space-use" class="btn selector">宇宙利用部門</a></li>
                 <li><a href="#kerbin-area-explore" class="btn selector">カービン圏探査部門</a></li>
                 <li><a href="#planet-explore" class="btn selector">惑星探査部門</a></li>

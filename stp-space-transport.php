@@ -1,3 +1,4 @@
+<!-- stp means section-top-page -->
 <?php require 'header.php'; ?>
 <div class="wrapper">
     <div><img src="img/2023-03-19 (1)-min.png" alt="" id="section-image"></div>
