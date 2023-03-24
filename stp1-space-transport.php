@@ -30,4 +30,5 @@
         </p>
     </section>
 </div>
+<!-- <h2 class="news">最新情報</h2> -->
 <?php require 'footer.php'; ?>

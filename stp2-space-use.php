@@ -13,4 +13,5 @@
         私たちは宇宙利用を通じた生活の利便性向上を追い求めます。
     </p>
 </div>
+<!-- <h2 class="news">最新情報</h2> -->
 <?php require 'footer.php'; ?>

@@ -15,4 +15,5 @@
         カーバルの宙の恒久的な平和を守る軍用機を開発し続けます。
     </p>
 </div>
+<!-- <h2 class="news">最新情報</h2> -->
 <?php require 'footer.php'; ?>
