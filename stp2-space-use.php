@@ -13,4 +13,28 @@
         私たちは宇宙利用を通じた生活の利便性向上を追い求めます。
     </p>
 </div>
+<div class="section-introduction section-detail">
+    <h2>運用中の人工衛星</h2>
+    <section class="fadeUpTrigger">
+        <h2>TS Low Networker</h2>
+        <img src="img/2023-03-24 (2)-min.png" alt="">
+        <p>
+            高度200kmのLKOを周回する通信衛星です。
+        </p>
+    </section>
+    <section class="fadeUpTrigger">
+        <h2>TS Middle Networker</h2>
+        <img src="img/2023-03-24 (3)-min.png" alt="">
+        <p>
+            高度800kmを周回する通信衛星です。
+        </p>
+    </section>
+    <section class="fadeUpTrigger">
+        <h2>TS High Networker</h2>
+        <img src="img/2023-03-24 (4)-min.png" alt="">
+        <p>
+            高度3000kmを周回する通信衛星です。
+        </p>
+    </section>
+</div>
 <?php require 'footer.php'; ?>

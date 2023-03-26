@@ -11,4 +11,10 @@
         ゲームシステムに反する内容も存在します。それらを了承の上、ご自分のゲームの参考程度にお楽しみください。
     </p>
 </div>
+<div class="section-introduction section-detail about-section">
+    <h1>各種リンク</h1>
+    <a href="https://www.youtube.com/@Shotaro_in_KSC"><p>YouTube</p></a>
+    <a href="https://twitter.com/shokun_play"><p>Twitter</p></a>
+    <a href="https://kerbalx.com/Shotaro"><p>KerbalX</p></a>
+</div>
 <?php require 'footer.php'; ?>

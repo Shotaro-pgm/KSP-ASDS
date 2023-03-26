@@ -1,7 +1,7 @@
 <?php require 'header.php'; ?>
     <div class="wrapper">
         <section id="space-transport" class="section">
-            <img src="img/2023-03-19 (1)-min.png" alt="" id="section-image">
+            <img src="img/2023-03-19-min.png" alt="" id="section-image">
             <div class="fadeUpTrigger section-greeting">
                 <a href="stp1-space-transport.php"><h2>宇宙運輸部門</h2></a>
                 <p>運べ。早く正確に。</p>

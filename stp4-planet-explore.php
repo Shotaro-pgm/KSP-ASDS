@@ -13,4 +13,14 @@
         来るべき太陽系からの旅立ちに備えた系外惑星の観測などあらゆる研究、開発を実施している。
     </p>
 </div>
+<div class="section-introduction section-detail">
+    <h2>運用中の探査機</h2>
+    <section class="fadeUpTrigger">
+        <h2>General Purpose Planet Explorer</h2>
+        <img src="img/2023-03-19 (16)-min.png" alt="">
+        <p>
+            対象の天体の近傍をフライバイしてさまざまな観測を実施する汎用惑星探査機
+        </p>
+    </section>
+</div>
 <?php require 'footer.php'; ?>

@@ -33,6 +33,29 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/paginathing.min.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $('.section-detail').paginathing({
+                    perPage: 4,
+                    firstLast:'prev',
+                    prevText:'prev',
+                    nextText:'next',
+                    activeClass:'active',
+                })
+            });
+        </script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $('.selector-uav').paginathing({
+                    perPage: 4,
+                    firstLast:'prev',
+                    prevText:'prev',
+                    nextText:'next',
+                    activeClass:'active',
+                })
+            });
+        </script>
 </head>
 <body>
     <header id="header">
