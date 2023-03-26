@@ -12,7 +12,7 @@
         今でも一部地域で反政府勢力による反乱が生じているのも事実です。<br>
         そのような不穏分子を排除するために、そしていつか起こりうるカービン外知的生命体との武力衝突に備えるために・・・<br>
         A.S.D.Sから委託を受けたM.A.S -Military Aircraft development bureau by Shotaroは、<br>
-        カーバルの宙の恒久的な平和を守る軍用機を開発し続けます。
+        カービンの宙の恒久的な平和を守る軍用機を開発し続けます。
     </p>
 </div>
 <div class="section-introduction section-detail">
